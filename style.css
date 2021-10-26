@@ -1,0 +1,363 @@
+/*     importing google fonts css     */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+    
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* i used some common css to avoid bootstrap */
+.d-flex{
+    display: flex;
+}
+.d-none{
+    display: none;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.align-items-center{
+    align-items: center;
+}
+.position-absolute{
+    position: absolute;
+}
+.text-center{
+    text-align: center;
+}
+.w-100{
+    width: 100%;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.flex-coulmn{
+    flex-direction: column;
+}
+
+
+.varal-nav {
+    background: #fff;
+    height: 80px;
+    max-width: 100%;
+    padding: 10px 65px 10px 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label.logo {
+  color: cornsilk;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-img{
+    height: auto;
+    width: 115px;
+}
+.search{
+    width: 315px;
+    height: 44px;
+    border-radius: 5px;
+    border: 2px solid #525ded;
+}
+.search-icon{
+    margin-left: 50px;
+    font-size: 22px;
+    color: #525ded !important;
+}
+.search::before{
+    content: "/f002";
+    font-size: 10px;
+
+}
+.search::placeholder{
+    color: #525ded !important;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+.search-row{
+    padding-right: 83px;
+    margin-top: 50px;
+}
+.main-title{
+    font-size: 40px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    margin: 5px 0 25px 0;
+    width: calc(100% - 100px);
+}
+.main-title span{
+    text-decoration:underline 5px solid #ffa500;
+}
+.main-description{
+    font-size: 20px;
+    color: #afafaf;
+    font-weight: 700;
+    margin-top: 24px;
+    opacity: .6;
+    width: calc(100% - 150px);
+}
+.get-started{
+    padding: 40px 85px 40px 85px;
+}
+.banner-img{
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+
+}
+.claim-sample{
+    font-size: 21px;
+    color: #525ded;
+    font-weight: 300;
+}
+.banner-btn{
+    margin-top: 10px;
+}
+.banner-buttons{
+    margin-top: 5px;
+}
+.renew-btn{
+    background: transparent;
+    color: #525ded;
+    width: 190px;
+    height: 58px;
+    border-radius: 4px;
+    border: 2px solid #525ded;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: -8px;
+    cursor: pointer;
+
+}
+
+.watch-video{
+    color: #525ded;
+}
+.play-btn{
+    color: #525ded;
+    font-size: 18px;
+}
+.play-link{
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #525ded;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.play-link:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+.line-b{
+    text-decoration:underline 5px solid #ffa500;
+}
+
+.mission-wrapper{
+    margin-top: 70px;
+}
+.mission-title{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.mission-description{
+    color: #afafaf;
+    width: 532px;
+    font-size: 20px;
+    line-height: 28px;
+}
+.mission-title::before{
+    content: "";
+    background-image: url(assets/images/Group\ 100.png);
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    left: -187px;
+    top: 80%;
+    opacity: .3;
+}
+.varal-features{
+    margin-top: 100px;
+}
+.feature-wrapper{
+    padding: 40px 85px 40px 85px
+}
+.feature-icon{
+height: auto;
+width: 40px;
+margin-bottom: 15px;
+}
+.feature-title{
+font-size: 18px;
+font-weight: bold;
+}
+.feature-description{
+    color: #afafaf;
+    width: calc(100% - 85px);
+    margin: 13px 0px 15px 0px;
+}
+.feature-link{
+    color: #ffa500;
+}
+.claim{
+    order: 1;
+}
+.advice{
+    order: 2;
+}
+.learn-title-adv{
+    font-size: 19px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+
+
+nav ul {
+  float: right;
+  margin-right: 0px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 60px;
+  margin: 0px 20px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+nav ul li a {
+    color: rgb(126 118 118);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+}
+a.active,
+a:hover {
+  color: #44b3e2;
+  color: rgb(53, 52, 52);
+}
+.hamberger-btn {
+  font-size: 35px;
+  color: white;
+  float: right;
+  margin-right: 30px;
+  line-height: 60px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+.start-btn{
+    background-color: #525ded;
+    color: #fff;
+    width: 190px;
+    height: 58px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+cursor: pointer;
+
+}
+.advice{
+    margin:80px 70px 10px 120px;
+}
+.advice-wrapper{
+    margin: 10px 22px;
+    border: 2px solid #cfcfcf;
+    border-radius: 10px;
+}
+.doc-wrapper{
+    margin: 90px 22px;
+    border: 2px solid #cfcfcf;
+    border-radius: 10px;
+}
+.visas{
+    margin: 80px 12px 100px 0px;
+    border: 2px solid #cfcfcf;
+    border-radius: 10px;
+}
+.learn-row{
+    padding: 10px 130px;
+}
+.advice-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.advice-info{
+    margin: 50px;
+    margin-top: 0px !important;
+}
+.advice-caption{
+    margin-bottom: 35px;
+}
+.advice-para{
+    margin-bottom: 30px;
+    font-size: 19px;
+    color: #cfcfcf;
+}
+.learn-title{
+    font-size: 19px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.learn-span{
+    color: #525ded;
+    margin: 25px 0px;
+}
+.bank-acc{
+    margin: 80px 12px 100px 0px;
+    border: 2px solid #cfcfcf;
+    border-radius: 10px;
+}
+.bank-caption{
+    margin-bottom: 30px;
+}
+.bank-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.bank-info{
+    margin:50px;
+}
+
+/* section {
+  background: url("https://ibb.co/wRMVsP3") no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 90vh;
+} */
+

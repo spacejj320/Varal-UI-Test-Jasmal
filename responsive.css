@@ -1,0 +1,188 @@
+@media screen and (max-width: 768px) {
+    .varal-nav{
+        padding: 10px 15px 10px 15px;
+    }
+    .search-row{
+        padding: 0px 40px !important;
+    }
+    .search{
+        width: 100%;
+    }
+    .banner-web{
+        display: none;
+    }
+    .banner-mobile{
+        display: block;
+    }
+    .right-col{
+        display: none;
+    }
+    .get-started{
+        padding: 40px;
+    }
+    .main-title{
+        font-size: 31px;
+        width: 100%;
+    }
+    .learn-row{
+      padding: 10px 5px;
+    }
+    .main-description{
+        width: 100%;
+    }
+    .banner-buttons{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .watch-video{
+        flex-direction: column;
+    text-align: center;
+    padding: 0px 85px;
+    }
+    .play-link{
+        margin-top: 15px;
+    }
+    .mission-description{
+        width: auto;
+    padding: 0 20px;
+    }
+    .feature-wrapper{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 0px;
+        padding: 40px 45px 40px 45px;
+    }
+    .learn-row{
+      flex-direction: column;
+    }
+    .learn-title{
+      font-size: 16px;
+      text-align: center;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 15px;
+    }
+    .bank-acc{
+      margin: 80px 40px 100px 40px;
+    }
+    .advice{
+      margin: 10px 40px 10px 40px;
+      order: 1;
+    }
+    .claim{
+      order: 2;
+    }
+    .learn-title{
+      display: none;
+    }
+    .learn-title-adv{
+      display: flex;
+      margin: 40px 10px;
+    }
+    .advice-wrapper{
+      margin: 0px;
+    }
+    .feature-group{
+        margin-top: 50px;
+    }
+    .doc-wrapper{
+      display: none;
+    }
+    .visas{
+      display: none;
+    }
+    .feature-description{
+text-align: left;
+width: 100%;
+    }
+  }
+  
+  @media (max-width:928px) and (min-width:769px) {
+      .varal-nav{
+        padding: 10px 30px 10px 53px;
+      }
+      nav ul li {
+        display: inline-block;
+        line-height: 60px;
+        margin: 0px 11px;
+    }
+    .start-btn{
+        width: 165px;
+        height: 50px;
+    }
+    .search-row{
+        padding-right: 40px;
+    }
+    .mission-title::before{
+        display: none;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    section {
+      background-position: top right;
+    }
+  
+    label.logo {
+      font-size: 30px;
+      margin-left: 20px;
+    }
+    nav ul li a {
+      color: white;
+      font-size: 16px;
+    }
+    .hamberger-btn {
+      display: block;
+    }
+    ul {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(
+        0deg,
+        rgba(34, 193, 195, 1) 0%,
+        rgba(45, 42, 145, 1) 97%
+      );
+      top: 85px;
+      right: 100%;
+      text-align: center;
+      transition: all 0.5s;
+    }
+    nav ul li {
+      display: block;
+    }
+    a:hover {
+      background: linear-gradient(
+        93deg,
+        rgba(94, 129, 207, 1) 16%,
+        rgba(94, 161, 187, 1) 55%
+      );
+    }
+  
+    #check:checked ~ ul {
+      right: 0px;
+      z-index: 100;
+    }
+    .fancy-radius {
+      display: none;
+    }
+  
+    .greeting {
+      font-size: 20px;
+      font-weight: bold;
+      position: relative;
+      color: whitesmoke;
+      left: 0px;
+      top: 20px;
+      background: rgb(109, 157, 162);
+      background: linear-gradient(
+        256deg,
+        rgba(109, 157, 162, 1) 18%,
+        rgba(94, 161, 187, 1) 58%
+      );
+      transition: all 0.6s;
+      z-index: 99;
+    }
+  }
